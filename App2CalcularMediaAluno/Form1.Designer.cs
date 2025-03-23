@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.Panel();
+            this.calcularBtn = new System.Windows.Forms.Button();
             this.medCmp2 = new System.Windows.Forms.Label();
             this.medCmp1 = new System.Windows.Forms.Label();
             this.lblBim4Cmp2 = new System.Windows.Forms.Label();
@@ -42,7 +43,7 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.lblMateria2 = new System.Windows.Forms.Label();
             this.lblMateria = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.mediaFinalRes2 = new System.Windows.Forms.TextBox();
             this.mediaFinalRes = new System.Windows.Forms.TextBox();
             this.inputBim3Cmp2 = new System.Windows.Forms.TextBox();
             this.inputBim2Cmp2 = new System.Windows.Forms.TextBox();
@@ -58,7 +59,6 @@
             this.groupBox2 = new System.Windows.Forms.Panel();
             this.fotoDavi = new System.Windows.Forms.PictureBox();
             this.fotoOtavio = new System.Windows.Forms.PictureBox();
-            this.calcularBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fotoDavi)).BeginInit();
@@ -85,7 +85,7 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Controls.Add(this.lblMateria2);
             this.groupBox1.Controls.Add(this.lblMateria);
-            this.groupBox1.Controls.Add(this.textBox13);
+            this.groupBox1.Controls.Add(this.mediaFinalRes2);
             this.groupBox1.Controls.Add(this.mediaFinalRes);
             this.groupBox1.Controls.Add(this.inputBim3Cmp2);
             this.groupBox1.Controls.Add(this.inputBim2Cmp2);
@@ -102,6 +102,18 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(550, 440);
             this.groupBox1.TabIndex = 0;
+            // 
+            // calcularBtn
+            // 
+            this.calcularBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.calcularBtn.Location = new System.Drawing.Point(206, 381);
+            this.calcularBtn.Name = "calcularBtn";
+            this.calcularBtn.Size = new System.Drawing.Size(112, 39);
+            this.calcularBtn.TabIndex = 26;
+            this.calcularBtn.Text = "CALCULAR";
+            this.calcularBtn.UseVisualStyleBackColor = true;
+            this.calcularBtn.Click += new System.EventHandler(this.calcularBtn_Click);
             // 
             // medCmp2
             // 
@@ -278,14 +290,15 @@
             this.lblMateria.TabIndex = 13;
             this.lblMateria.Text = "COMPONENTE 1";
             // 
-            // textBox13
+            // mediaFinalRes2
             // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.mediaFinalRes2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.Location = new System.Drawing.Point(391, 310);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 12;
+            this.mediaFinalRes2.Location = new System.Drawing.Point(391, 310);
+            this.mediaFinalRes2.Name = "mediaFinalRes2";
+            this.mediaFinalRes2.ReadOnly = true;
+            this.mediaFinalRes2.Size = new System.Drawing.Size(100, 20);
+            this.mediaFinalRes2.TabIndex = 12;
             // 
             // mediaFinalRes
             // 
@@ -293,6 +306,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.mediaFinalRes.Location = new System.Drawing.Point(43, 310);
             this.mediaFinalRes.Name = "mediaFinalRes";
+            this.mediaFinalRes.ReadOnly = true;
             this.mediaFinalRes.Size = new System.Drawing.Size(100, 20);
             this.mediaFinalRes.TabIndex = 11;
             // 
@@ -434,17 +448,6 @@
             this.fotoOtavio.TabIndex = 0;
             this.fotoOtavio.TabStop = false;
             // 
-            // calcularBtn
-            // 
-            this.calcularBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.calcularBtn.Location = new System.Drawing.Point(206, 381);
-            this.calcularBtn.Name = "calcularBtn";
-            this.calcularBtn.Size = new System.Drawing.Size(112, 39);
-            this.calcularBtn.TabIndex = 26;
-            this.calcularBtn.Text = "CALCULAR";
-            this.calcularBtn.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -485,7 +488,7 @@
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblMateria2;
         private System.Windows.Forms.Label lblMateria;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox mediaFinalRes2;
         private System.Windows.Forms.TextBox mediaFinalRes;
         private System.Windows.Forms.Label medCmp2;
         private System.Windows.Forms.Label medCmp1;

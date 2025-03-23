@@ -8,3 +8,13 @@ C:\Users\Aluno\source\repos\App2CalcularMediaAluno\App2CalcularMediaAluno\obj\De
 C:\Users\Aluno\source\repos\App2CalcularMediaAluno\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\source\repos\App2CalcularMediaAluno\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.exe
 C:\Users\Aluno\source\repos\App2CalcularMediaAluno\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.pdb
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\bin\Debug\App2CalcularMediaAluno.exe.config
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\bin\Debug\App2CalcularMediaAluno.exe
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\bin\Debug\App2CalcularMediaAluno.pdb
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.csproj.AssemblyReference.cache
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.Form1.resources
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.Properties.Resources.resources
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.csproj.GenerateResource.cache
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.csproj.CoreCompileInputs.cache
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.exe
+C:\Users\otavi\Source\Repos\App2_CalcularMedia_CSharp\App2CalcularMediaAluno\obj\Debug\App2CalcularMediaAluno.pdb
